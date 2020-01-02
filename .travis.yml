@@ -1,8 +1,8 @@
  os: osx
  osx_image: xcode11.2
  language: ruby
-rvm:
- - 2.5
+  rvm:
+ - 2.5.3
  - jruby
  before_install:
  - gem install bundler
