@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -29,7 +29,7 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="ultraLight"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Swift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhJ-gw-NHM">
-                                <rect key="frame" x="25" y="301.5" width="364" height="33.5"/>
+                                <rect key="frame" x="25" y="301.5" width="309" height="33.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,7 +37,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C9H-ds-RXO">
                                 <rect key="frame" x="5" y="350" width="404" height="512"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">“Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.
+                                <string key="text">“Swift is a fantastic way to write software, whether it’s for phones, desktops, servers, or anything else that runs code. It’s a safe, fast, and interactive programming language that combines the best in modern language thinking with wisdom from the wider Apple engineering culture and the diverse contributions from its open-source community. The compiler is optimized for performance and the language is optimized for development, without compromising on either.
 
 Swift is friendly to new programmers. It’s an industrial-quality programming language that’s as expressive and enjoyable as a scripting language. Writing Swift code in a playground lets you experiment with code and see the results immediately, without the overhead of building and running an app.
 
@@ -49,7 +49,7 @@ Array indices are checked for out-of-bounds errors.
 
 Integers are checked for overflow.”
 
-Excerpt From: Apple Inc. “The Swift Programming Language (Swift 5.1)”. Apple Books. https://books.apple.com/in/book/the-swift-programming-language-swift-5-1/id881256329</mutableString>
+Excerpt From: Apple Inc. “The Swift Programming Language (Swift 5.1)”. Apple Books. https://books.apple.com/in/book/the-swift-programming-language-swift-5-1/id881256329</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -62,7 +62,7 @@ Excerpt From: Apple Inc. “The Swift Programming Language (Swift 5.1)”. Apple
                             <constraint firstItem="RPb-hs-xvT" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.35" constant="0.34999999999999998" id="FT0-X9-mRa"/>
                             <constraint firstItem="yhJ-gw-NHM" firstAttribute="top" secondItem="RPb-hs-xvT" secondAttribute="bottom" constant="15" id="HGB-HS-QdD"/>
                             <constraint firstItem="C9H-ds-RXO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="IbQ-6K-Dgn"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yhJ-gw-NHM" secondAttribute="trailing" constant="25" id="KTF-vZ-78z"/>
+                            <constraint firstItem="RE7-PY-u7d" firstAttribute="leading" secondItem="yhJ-gw-NHM" secondAttribute="trailing" constant="20" id="KTF-vZ-78z"/>
                             <constraint firstItem="C9H-ds-RXO" firstAttribute="top" secondItem="yhJ-gw-NHM" secondAttribute="bottom" constant="15" id="LTu-HJ-D87"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RPb-hs-xvT" secondAttribute="trailing" id="NQ3-64-HSK"/>
                             <constraint firstItem="yhJ-gw-NHM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="ch4-9H-xQr"/>
@@ -83,7 +83,7 @@ Excerpt From: Apple Inc. “The Swift Programming Language (Swift 5.1)”. Apple
         <image name="background" width="1440" height="900"/>
         <image name="lightbulb" catalog="system" width="56" height="64"/>
         <namedColor name="logoColor">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
