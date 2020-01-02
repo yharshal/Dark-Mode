@@ -1,6 +1,5 @@
  os: osx
  osx_image: xcode11.2
- language: swift
  language: ruby
  before_install:
  - gem install bundler
